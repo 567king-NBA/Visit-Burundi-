@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Visit Burundi : découvrez les paysages, la culture et les destinations du Burundi.">
+<title>Visit Burundi — Le cœur de l'Afrique</title>
+<style>
+:root{--green:#176b45;--gold:#f2b544;--red:#c83c42;--dark:#10251d;--cream:#fff9ed}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:#203229}
+header{position:sticky;top:0;z-index:10;background:#fffdf8ee;backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:space-between;padding:12px max(4%,calc((100% - 1120px)/2));box-shadow:0 2px 15px #00000010}
+.logo{font-weight:900;letter-spacing:1px;color:var(--green);font-size:20px}.logo span{color:var(--red)}
+nav{display:flex;gap:17px;flex-wrap:wrap}nav a{color:#24392f;text-decoration:none;font-size:14px;font-weight:bold}
+.hero{min-height:560px;display:flex;align-items:center;color:white;padding:70px max(6%,calc((100% - 1120px)/2));background:linear-gradient(90deg,#0b251ee8,#0b251e55),url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=85') center/cover}
+.hero-inner{max-width:700px}.tag{display:inline-block;background:var(--gold);color:#203229;padding:8px 12px;border-radius:30px;font-weight:bold;font-size:12px;letter-spacing:1px}
+h1{font-size:clamp(40px,7vw,76px);line-height:1.02;margin:20px 0} .hero p{font-size:18px;line-height:1.7;max-width:590px}
+.btn{display:inline-block;background:var(--gold);color:#172d22;padding:13px 18px;border-radius:8px;text-decoration:none;font-weight:bold;margin:8px 8px 0 0}.btn.alt{background:transparent;border:1px solid white;color:white}
+main{max-width:1120px;margin:auto;padding:0 20px}section{padding:65px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 30px}.section-head h2{font-size:clamp(28px,4vw,42px);color:var(--green);margin:0 0 12px}.section-head p{line-height:1.7;color:#53665b}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.card{background:white;border-radius:16px;overflow:hidden;box-shadow:0 8px 24px #10251d12}.card img{width:100%;height:210px;object-fit:cover;display:block}.card-body{padding:18px}.card h3{color:var(--green);margin:0 0 9px}.card p{line-height:1.6;color:#53665b;margin:0 0 12px}.small-link{color:#a94b23;font-weight:bold;text-decoration:none}
+.band{background:#eaf2e8;border-radius:22px;padding:30px;display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}.band img{width:100%;height:310px;object-fit:cover;border-radius:15px}.band h2{color:var(--green);font-size:32px}.band p,.info p{line-height:1.75;color:#53665b}
+.info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.info{background:white;padding:22px;border-radius:14px;border-top:4px solid var(--gold)}.info h3{color:var(--green);margin-top:0}
+footer{background:var(--dark);color:#edf5ee;padding:35px 20px;text-align:center;line-height:1.7}footer a{color:#ffd36e}
+@media(max-width:760px){header{align-items:flex-start;gap:10px;flex-direction:column}nav{gap:12px}.hero{min-height:520px;padding-top:55px;padding-bottom:55px}.grid{grid-template-columns:1fr}.band{grid-template-columns:1fr}.band img{height:230px}.info-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">VISIT <span>BURUNDI</span> 🇧🇮</div>
+  <nav><a href="#decouvrir">Découvrir</a><a href="#lieux">Destinations</a><a href="#culture">Culture</a><a href="#conseils">Conseils</a></nav>
+</header>
+<div class="hero">
+  <div class="hero-inner">
+    <span class="tag">IKAZE • BIENVENUE AU BURUNDI</span>
+    <h1>Le cœur de l’Afrique vous attend.</h1>
+    <p>Des eaux du lac Tanganyika aux collines verdoyantes, des tambours royaux aux cascades cachées : découvrez un pays riche en nature, en culture et en rencontres.</p>
+    <a class="btn" href="#lieux">Explorer le Burundi ↓</a>
+    <a class="btn alt" href="https://tourisme.gov.bi/" target="_blank" rel="noopener">Tourisme officiel ↗</a>
+  </div>
+</div>
+<main>
+<section id="decouvrir">
+ <div class="section-head"><h2>Une destination, mille découvertes</h2><p>Le Burundi offre des paysages variés et des traditions vivantes. Voici quelques idées pour commencer à préparer votre visite.</p></div>
+ <div class="info-grid">
+  <article class="info"><h3>🌿 Nature</h3><p>Forêts tropicales, parcs naturels, montagnes, lacs et cascades pour les amoureux des grands espaces.</p></article>
+  <article class="info"><h3>🥁 Culture</h3><p>Les tambours du Burundi, les danses traditionnelles, l’artisanat et les histoires transmises de génération en génération.</p></article>
+  <article class="info"><h3>🤝 Hospitalité</h3><p>Découvrez la vie quotidienne, les marchés, les spécialités locales et la chaleur des échanges.</p></article>
+ </div>
+</section>
+<section id="lieux">
+ <div class="section-head"><h2>Les lieux à découvrir</h2><p>Quelques sites connus pour la beauté de leurs paysages et leur importance culturelle. Les photos ci-dessous sont des images illustratives chargées depuis Internet.</p></div>
+ <div class="grid">
+  <article class="card"><img loading="lazy" src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80" alt="Eau et rivage, image illustrative"><div class="card-body"><h3>🌊 Lac Tanganyika</h3><p>Profitez des paysages du lac, des plages et des couchers de soleil près de Bujumbura. Le lac fait partie des grands trésors naturels du pays.</p><a class="small-link" href="https://tourisme.gov.bi/" target="_blank" rel="noopener">Préparer sa visite ↗</a></div></article>
+  <article class="card"><img loading="lazy" src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=80" alt="Forêt verdoyante, image illustrative"><div class="card-body"><h3>🌳 Parc national de la Kibira</h3><p>Une forêt de montagne remarquable pour sa biodiversité, ses oiseaux et ses primates. Renseignez-vous sur les accès et les visites guidées avant de partir.</p><a class="small-link" href="https://tourisme.gov.bi/en/parks-and-reserves/" target="_blank" rel="noopener">Parcs et réserves ↗</a></div></article>
+  <article class="card"><img loading="lazy" src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=900&q=80" alt="Cascade entourée de végétation, image illustrative"><div class="card-body"><h3>💧 Chutes de Karera</h3><p>Des cascades entourées de végétation dans le sud-est du Burundi, idéales pour admirer la force et la beauté de la nature.</p><a class="small-link" href="https://tourisme.gov.bi/paysages-uniques/" target="_blank" rel="noopener">Paysages uniques ↗</a></div></article>
+  <article class="card"><img loading="lazy" src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=900&q=80" alt="Performance musicale, image illustrative"><div class="card-body"><h3>🥁 Sanctuaire des tambours de Gishora</h3><p>Près de Gitega, découvrez une tradition emblématique : les tambours royaux et les performances de percussionnistes.</p><a class="small-link" href="https://tourisme.gov.bi/en/cultural-tourism/" target="_blank" rel="noopener">Tourisme culturel ↗</a></div></article>
+  <article class="card"><img loading="lazy" src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=900&q=80" alt="Animaux sauvages dans la nature, image illustrative"><div class="card-body"><h3>🦛 Réserve naturelle de la Rusizi</h3><p>À proximité de Bujumbura, cette zone humide est connue pour ses hippopotames et sa diversité d’oiseaux. Suivez les consignes des guides.</p><a class="small-link" href="https://tourisme.gov.bi/en/parks-and-reserves/" target="_blank" rel="noopener">En savoir plus ↗</a></div></article>
+  <article class="card"><img loading="lazy" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=80" alt="Collines verdoyantes, image illustrative"><div class="card-body"><h3>🍃 Plantations de thé de Teza</h3><p>Des collines couvertes de thé près de la région de la Kibira offrent de magnifiques panoramas verts et une autre facette du Burundi.</p><a class="small-link" href="https://tourisme.gov.bi/paysages-uniques/" target="_blank" rel="noopener">Découvrir les paysages ↗</a></div></article>
+ </div>
+</section>
+<section id="culture">
+ <div class="band">
+  <div><span class="tag">PATRIMOINE VIVANT</span><h2>Une culture qui se partage</h2><p>La culture burundaise se découvre dans la musique, les tambours, les danses, l’artisanat, les contes et la vie communautaire. Lors d’une visite, demandez toujours la permission avant de photographier les personnes et respectez les indications des organisateurs.</p><a class="btn" href="https://tourisme.gov.bi/en/cultural-tourism/" target="_blank" rel="noopener">Explorer la culture ↗</a></div>
+  <img loading="lazy" src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1000&q=80" alt="Musiciens en représentation, photo illustrative">
+ </div>
+</section>
+<section id="conseils">
+ <div class="section-head"><h2>Conseils pour préparer votre visite</h2><p>Un voyage réussi commence par quelques vérifications simples.</p></div>
+ <div class="info-grid">
+  <article class="info"><h3>🗺️ Organiser l’itinéraire</h3><p>Regroupez les sites par région et prévoyez du temps pour les déplacements. Les routes et les conditions d’accès peuvent varier.</p></article>
+  <article class="info"><h3>🎒 Préparer son sac</h3><p>Prévoyez de l’eau, une protection solaire, des chaussures adaptées et une veste légère pour les zones plus fraîches.</p></article>
+  <article class="info"><h3>✅ Vérifier avant de partir</h3><p>Consultez les informations officielles sur les conditions d’entrée, les horaires, les guides, la météo et la sécurité locale.</p></article>
+ </div>
+ <div style="text-align:center;margin-top:28px"><a class="btn" href="https://tourisme.gov.bi/" target="_blank" rel="noopener">Visiter le portail officiel du tourisme ↗</a></div>
+</section>
+</main>
+<footer><strong>VISIT BURUNDI 🇧🇮 — Le cœur de l’Afrique</strong><br>Un site de découverte non officiel, créé pour présenter le patrimoine naturel et culturel du Burundi.<br><small>Les images proviennent de liens externes et nécessitent une connexion Internet. Certaines sont illustratives et ne représentent pas nécessairement le site exact.</small><br><a href="https://tourisme.gov.bi/" target="_blank" rel="noopener">Portail officiel du tourisme du Burundi</a></footer>
+</body>
+</html>
